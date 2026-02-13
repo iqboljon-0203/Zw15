@@ -11,6 +11,9 @@
     <!-- Optimized Static CSS (16KB vs 350KB CDN) -->
     <link rel="stylesheet" href="style.css" />
 
+    <!-- Preload hero image for faster LCP -->
+    <link rel="preload" as="image" href="images/head_one.webp" type="image/webp" />
+
     <meta name="theme-color" content="#000000" />
 
     <!-- Performance: Preconnect to external domains -->
@@ -241,6 +244,7 @@
           <button
             onclick="setLang('uz')"
             id="btn-uz"
+            aria-label="O'zbek tilini tanlash"
             class="px-3 py-1 rounded-full text-sm font-medium transition-all duration-300 bg-brand-gold text-black"
           >
             UZ
@@ -248,6 +252,7 @@
           <button
             onclick="setLang('ru')"
             id="btn-ru"
+            aria-label="Выбрать русский язык"
             class="px-3 py-1 rounded-full text-sm font-medium transition-all duration-300 text-gray-400 hover:text-white"
           >
             RU
@@ -501,6 +506,7 @@
             <!-- Name Input -->
             <div class="mb-4">
               <label
+                for="name"
                 class="block text-sm text-gray-400 mb-2"
                 data-i18n="labelName"
                 >Ismingiz</label
@@ -518,6 +524,7 @@
             <!-- Phone Input -->
             <div class="mb-5">
               <label
+                for="phone"
                 class="block text-sm text-gray-400 mb-2"
                 data-i18n="labelPhone"
                 >Telefon raqam</label
@@ -596,6 +603,8 @@
           <a
             href="https://uzum.uz/product/2289702?&utm_source=sharing&utm_medium=product_page_ios&utm_campaign=native"
             target="_blank"
+            rel="noopener"
+            aria-label="Uzum Market da xarid qilish"
             class="inline-flex items-center gap-2 bg-brand-dark hover:bg-gray-800 border border-gray-700 text-white font-medium px-5 py-3 rounded-xl transition-all duration-300"
             onclick="if(typeof ym!=='undefined'){ym(CONFIG.YANDEX_METRIKA_ID,'reachGoal','uzum_click');}"
           >
@@ -615,6 +624,7 @@
             href="https://www.instagram.com/gizmox_uz?igsh=MWtlamIxN3U3Y2l1Yg=="
             target="_blank"
             rel="noopener"
+            aria-label="Instagram da ko'rish"
             class="inline-flex items-center gap-2 bg-gradient-to-r from-purple-600 via-pink-600 to-orange-500 hover:from-purple-500 hover:via-pink-500 hover:to-orange-400 text-white font-medium px-5 py-3 rounded-xl transition-all duration-300"
             onclick="if(typeof ym!=='undefined'){ym(CONFIG.YANDEX_METRIKA_ID,'reachGoal','instagram_click');}"
           >
