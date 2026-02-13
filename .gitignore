@@ -1,0 +1,16 @@
+# Environment variables (TOKENLAR!)
+.env
+.env.local
+.env.production
+
+# Dependencies
+node_modules/
+
+# Build files
+tailwind.config.js
+input.css
+compress.js
+
+# OS files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,1284 @@
+<!doctype html>
+<html lang="uz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>ZW15 - Premium Smart Watch</title>
+
+    <!-- Optimized Static CSS (16KB vs 350KB CDN) -->
+    <link rel="stylesheet" href="style.css" />
+
+    <meta name="theme-color" content="#000000" />
+
+    <!-- Performance: Preconnect to external domains -->
+    <link rel="dns-prefetch" href="https://api.telegram.org" />
+
+    <!-- SEO Meta Tags -->
+    <meta
+      name="description"
+      content="ZW15 Premium Smart Watch - 56% chegirma! 7 kun zaryad, IP68 suv o'tkazmas, 100+ sport rejimi. Yetkazib berish bepul. Uzum va Instagram orqali ham xarid qiling."
+    />
+    <meta
+      name="keywords"
+      content="smart watch, ZW15, soat, aqlli soat, sport soat, chegirma, uzum"
+    />
+    <meta name="author" content="Official Store" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://zw15-watch.vercel.app/" />
+
+    <!-- Sitemap -->
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/webp" href="images/head_one.webp" />
+    <link rel="apple-touch-icon" href="images/head_one.webp" />
+
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="/manifest.json" />
+
+    <!-- Open Graph Meta Tags (Social Media) -->
+    <meta property="og:url" content="https://zw15-watch.vercel.app/" />
+    <meta property="og:type" content="product" />
+    <meta
+      property="og:image"
+      content="https://zw15-watch.vercel.app/images/head_one.webp"
+    />
+    <meta property="og:image:width" content="800" />
+    <meta property="og:image:height" content="800" />
+    <meta property="og:locale" content="uz_UZ" />
+    <meta property="product:price:amount" content="749000" />
+    <meta property="product:price:currency" content="UZS" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="ZW15 - Premium Smart Watch" />
+    <meta
+      name="twitter:description"
+      content="56% chegirma! 7 kun zaryad, IP68 suv o'tkazmas. Yetkazib berish bepul."
+    />
+    <meta
+      name="twitter:image"
+      content="https://zw15-watch.vercel.app/images/head_one.webp"
+    />
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "ZW15 Premium Smart Watch",
+        "image": [
+          "https://zw15-watch.vercel.app/images/head_one.webp",
+          "https://zw15-watch.vercel.app/images/head_two.webp",
+          "https://zw15-watch.vercel.app/images/head_three.webp"
+        ],
+        "description": "Premium Smart Watch - 7 kun zaryad, IP68 suv o'tkazmas, 100+ sport rejimi",
+        "brand": {
+          "@type": "Brand",
+          "name": "ZW15"
+        },
+        "offers": {
+          "@type": "Offer",
+          "url": "https://zw15-watch.vercel.app/",
+          "price": "749000",
+          "priceCurrency": "UZS",
+          "priceValidUntil": "2026-12-31",
+          "availability": "https://schema.org/InStock",
+          "itemCondition": "https://schema.org/NewCondition",
+          "shippingDetails": {
+            "@type": "OfferShippingDetails",
+            "shippingRate": {
+              "@type": "MonetaryAmount",
+              "value": "0",
+              "currency": "UZS"
+            },
+            "shippingDestination": {
+              "@type": "DefinedRegion",
+              "addressCountry": "UZ"
+            }
+          }
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.8",
+          "reviewCount": "128"
+        }
+      }
+    </script>
+
+    <!-- Yandex.Metrika -->
+    <script type="text/javascript" defer>
+      (function (m, e, t, r, i, k, a) {
+        m[i] =
+          m[i] ||
+          function () {
+            (m[i].a = m[i].a || []).push(arguments);
+          };
+        m[i].l = 1 * new Date();
+        for (var j = 0; j < document.scripts.length; j++) {
+          if (document.scripts[j].src === r) {
+            return;
+          }
+        }
+        (k = e.createElement(t)),
+          (a = e.getElementsByTagName(t)[0]),
+          k.async = 1,
+          (k.src = r),
+          a.parentNode.insertBefore(k, a);
+      })(
+        window,
+        document,
+        "script",
+        "https://mc.yandex.ru/metrika/tag.js",
+        "ym"
+      );
+      ym(99999999, "init", {
+        clickmap: true,
+        trackLinks: true,
+        accurateTrackBounce: true,
+        webvisor: true,
+        ecommerce: "dataLayer",
+      });
+    </script>
+    <noscript
+      ><div>
+        <img
+          src="https://mc.yandex.ru/watch/99999999"
+          style="position: absolute; left: -9999px"
+          alt=""
+        /></div
+    ></noscript>
+
+    <style>
+      /* Custom styles for performance optimization */
+      * {
+        -webkit-tap-highlight-color: transparent;
+        scroll-behavior: smooth;
+      }
+
+      /* Hide scrollbar for cleaner look */
+      ::-webkit-scrollbar {
+        width: 0px;
+        background: transparent;
+      }
+
+      /* Phone input styling */
+      .phone-input:focus {
+        outline: none;
+        border-color: #eab308;
+      }
+
+      /* Toast notification */
+      .toast {
+        position: fixed;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 50;
+        animation: slideIn 0.3s ease-out;
+      }
+
+      /* Gradient text */
+      .gradient-text {
+        background: linear-gradient(135deg, #eab308 0%, #fbbf24 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+
+      /* Glass effect for cards */
+      .glass-card {
+        background: rgba(28, 28, 30, 0.8);
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+      }
+
+      /* Image transition */
+      #mainImage {
+        transition: opacity 0.15s ease-in-out;
+      }
+
+      /* Thumbnail hover effect */
+      .thumbnail-btn:hover {
+        opacity: 1 !important;
+      }
+
+      /* Hide scrollbar for thumbnails */
+      .scrollbar-hide {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+      }
+      .scrollbar-hide::-webkit-scrollbar {
+        display: none;
+      }
+    </style>
+  </head>
+  <body class="bg-brand-black text-white min-h-screen font-sans antialiased">
+    <!-- NoScript warning -->
+    <noscript>
+      <div
+        class="fixed top-0 left-0 right-0 bg-red-500 text-white text-center py-2 z-50"
+      >
+        JavaScript o'chirilgan. Sayt to'liq ishlamasligi mumkin.
+      </div>
+    </noscript>
+    <!-- Language Toggle Header -->
+    <header
+      class="fixed top-0 left-0 right-0 z-40 bg-brand-black/90 backdrop-blur-md border-b border-white/10"
+    >
+      <div class="max-w-md mx-auto px-4 py-3 flex justify-between items-center">
+        <div class="flex items-center gap-3">
+          <span class="text-brand-gold font-bold text-lg">gizmox_uz</span>
+        </div>
+
+        <!-- Language Toggle -->
+        <div class="flex bg-brand-dark rounded-full p-1">
+          <button
+            onclick="setLang('uz')"
+            id="btn-uz"
+            class="px-3 py-1 rounded-full text-sm font-medium transition-all duration-300 bg-brand-gold text-black"
+          >
+            UZ
+          </button>
+          <button
+            onclick="setLang('ru')"
+            id="btn-ru"
+            class="px-3 py-1 rounded-full text-sm font-medium transition-all duration-300 text-gray-400 hover:text-white"
+          >
+            RU
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="pt-16 pb-8 px-4 max-w-md mx-auto">
+      <!-- Hero Section -->
+      <section class="text-center py-6 animate-fade-in-up">
+        <!-- Combined Discount + Timer Badge -->
+        <div
+          class="inline-flex items-center gap-3 bg-red-500/20 border border-red-500/30 rounded-full px-5 py-2 mb-4"
+        >
+          <span class="text-red-400 font-bold"
+            >🔥 56% <span data-i18n="discount">CHEGIRMA</span></span
+          >
+          <span class="w-px h-4 bg-red-500/50"></span>
+          <div class="flex items-center gap-1.5">
+            <svg
+              class="w-4 h-4 text-red-400"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z"
+                clip-rule="evenodd"
+              />
+            </svg>
+            <span class="text-red-400 font-bold">3</span>
+            <span class="text-gray-300 text-sm" data-i18n="daysLeft"
+              >kun qoldi</span
+            >
+          </div>
+        </div>
+
+        <!-- Product Title -->
+        <h1 class="text-3xl font-bold mb-2">
+          <span class="gradient-text">ZW15</span>
+        </h1>
+        <p class="text-gray-400 text-sm mb-6" data-i18n="subtitlePremium">
+          Premium Smart Watch
+        </p>
+
+        <!-- Product Image Gallery -->
+        <div class="relative mx-auto mb-6">
+          <!-- Glow effect -->
+          <div
+            class="absolute inset-0 bg-brand-gold/20 rounded-full blur-3xl scale-75"
+          ></div>
+
+          <!-- Watch Image Container -->
+          <div class="relative z-10 mx-auto max-w-[280px]">
+            <!-- NEW Badge - Top Right Corner -->
+            <div
+              class="absolute -top-3 -right-3 z-20 bg-brand-gold text-black text-xs font-bold px-3 py-1.5 rounded-full shadow-lg"
+            >
+              NEW
+            </div>
+
+            <!-- Main Image -->
+            <div class="relative overflow-hidden rounded-3xl bg-white">
+              <img
+                id="mainImage"
+                src="images/head_one.webp"
+                alt="ZW15 Smart Watch"
+                class="w-full aspect-square object-cover"
+                loading="eager"
+                fetchpriority="high"
+                width="400"
+                height="400"
+              />
+              <!-- Swipe hint (subtle) -->
+              <div
+                class="absolute bottom-3 left-3 bg-black/40 rounded-full px-2 py-1"
+              >
+                <svg
+                  class="w-4 h-4 text-white/70"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M7 16l-4-4m0 0l4-4m-4 4h18"
+                  />
+                </svg>
+              </div>
+              <!-- Image Counter -->
+              <div
+                class="absolute bottom-3 right-3 bg-black/60 rounded-full px-3 py-1 text-xs text-white"
+              >
+                <span id="currentImage">1</span> /
+                <span id="totalImages">10</span>
+              </div>
+            </div>
+
+            <!-- Thumbnail Navigation -->
+            <div
+              class="flex gap-2 mt-3 overflow-x-auto pb-2 px-1 scrollbar-hide"
+              style="scroll-behavior: smooth; -webkit-overflow-scrolling: touch"
+            >
+              <button
+                onclick="setImage(0)"
+                class="thumbnail-btn flex-shrink-0 w-14 h-14 rounded-lg overflow-hidden border-2 border-brand-gold opacity-100 transition-all bg-white"
+                data-index="0"
+              >
+                <img
+                  src="images/head_one.webp"
+                  class="w-full h-full object-cover"
+                />
+              </button>
+              <button
+                onclick="setImage(1)"
+                class="thumbnail-btn flex-shrink-0 w-14 h-14 rounded-lg overflow-hidden border-2 border-transparent opacity-60 transition-all bg-white"
+                data-index="1"
+              >
+                <img
+                  src="images/head_two.webp"
+                  loading="lazy"
+                  class="w-full h-full object-cover"
+                />
+              </button>
+              <button
+                onclick="setImage(2)"
+                class="thumbnail-btn flex-shrink-0 w-14 h-14 rounded-lg overflow-hidden border-2 border-transparent opacity-60 transition-all bg-white"
+                data-index="2"
+              >
+                <img
+                  src="images/head_three.webp"
+                  loading="lazy"
+                  class="w-full h-full object-cover"
+                />
+              </button>
+              <button
+                onclick="setImage(3)"
+                class="thumbnail-btn flex-shrink-0 w-14 h-14 rounded-lg overflow-hidden border-2 border-transparent opacity-60 transition-all bg-white"
+                data-index="3"
+              >
+                <img
+                  src="images/head_four.webp"
+                  loading="lazy"
+                  class="w-full h-full object-cover"
+                />
+              </button>
+              <button
+                onclick="setImage(4)"
+                class="thumbnail-btn flex-shrink-0 w-14 h-14 rounded-lg overflow-hidden border-2 border-transparent opacity-60 transition-all bg-white"
+                data-index="4"
+              >
+                <img
+                  src="images/head_five.webp"
+                  loading="lazy"
+                  class="w-full h-full object-cover"
+                />
+              </button>
+              <button
+                onclick="setImage(5)"
+                class="thumbnail-btn flex-shrink-0 w-14 h-14 rounded-lg overflow-hidden border-2 border-transparent opacity-60 transition-all bg-white"
+                data-index="5"
+              >
+                <img
+                  src="images/head_six.webp"
+                  loading="lazy"
+                  class="w-full h-full object-cover"
+                />
+              </button>
+              <button
+                onclick="setImage(6)"
+                class="thumbnail-btn flex-shrink-0 w-14 h-14 rounded-lg overflow-hidden border-2 border-transparent opacity-60 transition-all bg-white"
+                data-index="6"
+              >
+                <img
+                  src="images/head_seven.webp"
+                  loading="lazy"
+                  class="w-full h-full object-cover"
+                />
+              </button>
+              <button
+                onclick="setImage(7)"
+                class="thumbnail-btn flex-shrink-0 w-14 h-14 rounded-lg overflow-hidden border-2 border-transparent opacity-60 transition-all bg-white"
+                data-index="7"
+              >
+                <img
+                  src="images/head_eight.webp"
+                  loading="lazy"
+                  class="w-full h-full object-cover"
+                />
+              </button>
+              <button
+                onclick="setImage(8)"
+                class="thumbnail-btn flex-shrink-0 w-14 h-14 rounded-lg overflow-hidden border-2 border-transparent opacity-60 transition-all bg-white"
+                data-index="8"
+              >
+                <img
+                  src="images/head_nine.webp"
+                  loading="lazy"
+                  class="w-full h-full object-cover"
+                />
+              </button>
+              <button
+                onclick="setImage(9)"
+                class="thumbnail-btn flex-shrink-0 w-14 h-14 rounded-lg overflow-hidden border-2 border-transparent opacity-60 transition-all bg-white"
+                data-index="9"
+              >
+                <img
+                  src="images/head_ten.webp"
+                  loading="lazy"
+                  class="w-full h-full object-cover"
+                />
+              </button>
+            </div>
+
+            <!-- Price Section - Below Image -->
+            <div class="mt-6 pt-4 border-t border-gray-800">
+              <div class="flex flex-col items-center">
+                <span class="text-gray-500 line-through text-base mb-1"
+                  >1 699 000 <span data-i18n="currency">so'm</span></span
+                >
+                <span class="text-brand-gold text-4xl font-bold"
+                  >749 000 <span data-i18n="currency">so'm</span></span
+                >
+              </div>
+              <p
+                class="text-gray-500 text-xs mt-2 text-center"
+                data-i18n="taxIncluded"
+              >
+                Yetkazib berish bepul
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Order Form Section -->
+      <section class="py-6">
+        <div class="glass-card rounded-2xl p-5">
+          <h2
+            class="text-lg font-semibold mb-4 text-center"
+            data-i18n="orderTitle"
+          >
+            Buyurtma qoldiring
+          </h2>
+
+          <form id="orderForm" onsubmit="handleSubmit(event)">
+            <!-- Name Input -->
+            <div class="mb-4">
+              <label
+                class="block text-sm text-gray-400 mb-2"
+                data-i18n="labelName"
+                >Ismingiz</label
+              >
+              <input
+                type="text"
+                id="name"
+                required
+                class="phone-input w-full bg-brand-black border border-gray-700 rounded-xl px-4 py-3 text-white placeholder-gray-500 transition-colors"
+                data-i18n-placeholder="placeholderName"
+                placeholder="Ismingizni kiriting"
+              />
+            </div>
+
+            <!-- Phone Input -->
+            <div class="mb-5">
+              <label
+                class="block text-sm text-gray-400 mb-2"
+                data-i18n="labelPhone"
+                >Telefon raqam</label
+              >
+              <div class="relative">
+                <span
+                  class="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400"
+                  >+998</span
+                >
+                <input
+                  type="tel"
+                  id="phone"
+                  required
+                  maxlength="15"
+                  class="phone-input w-full bg-brand-black border border-gray-700 rounded-xl pl-14 pr-4 py-3 text-white placeholder-gray-500 transition-colors"
+                  data-i18n-placeholder="placeholderPhone"
+                  placeholder="(90) 123-45-67"
+                  oninput="formatPhone(this)"
+                />
+              </div>
+            </div>
+
+            <!-- Submit Button -->
+            <button
+              type="submit"
+              id="submitBtn"
+              class="w-full bg-brand-gold hover:bg-brand-goldHover text-black font-bold py-4 rounded-xl transition-all duration-300 animate-pulse-gold text-lg"
+            >
+              <span data-i18n="btnOrder">BUYURTMA BERISH</span>
+            </button>
+          </form>
+
+          <!-- Trust badges -->
+          <div
+            class="flex items-center justify-center gap-4 mt-4 text-xs text-gray-500"
+          >
+            <span class="flex items-center gap-1">
+              <svg
+                class="w-4 h-4 text-green-500"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <span data-i18n="secure">Xavfsiz</span>
+            </span>
+            <span class="flex items-center gap-1">
+              <svg
+                class="w-4 h-4 text-green-500"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <span data-i18n="guarantee">Kafolat</span>
+            </span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Secondary CTA: Uzum Market & Instagram -->
+      <section class="py-4 text-center">
+        <p class="text-gray-500 text-sm mb-3" data-i18n="orBuyOn">
+          Boshqa platformalar orqali xarid qiling
+        </p>
+        <div class="flex justify-center gap-3">
+          <!-- Uzum Market -->
+          <a
+            href="https://uzum.uz/product/2289702?&utm_source=sharing&utm_medium=product_page_ios&utm_campaign=native"
+            target="_blank"
+            class="inline-flex items-center gap-2 bg-brand-dark hover:bg-gray-800 border border-gray-700 text-white font-medium px-5 py-3 rounded-xl transition-all duration-300"
+            onclick="if(typeof ym!=='undefined'){ym(CONFIG.YANDEX_METRIKA_ID,'reachGoal','uzum_click');}"
+          >
+            <svg
+              class="w-5 h-5 text-purple-400"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"
+              />
+            </svg>
+            <span data-i18n="btnUzum">Uzum</span>
+          </a>
+          <!-- Instagram -->
+          <a
+            href="https://www.instagram.com/gizmox_uz?igsh=MWtlamIxN3U3Y2l1Yg=="
+            target="_blank"
+            rel="noopener"
+            class="inline-flex items-center gap-2 bg-gradient-to-r from-purple-600 via-pink-600 to-orange-500 hover:from-purple-500 hover:via-pink-500 hover:to-orange-400 text-white font-medium px-5 py-3 rounded-xl transition-all duration-300"
+            onclick="if(typeof ym!=='undefined'){ym(CONFIG.YANDEX_METRIKA_ID,'reachGoal','instagram_click');}"
+          >
+            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+              <path
+                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"
+              />
+            </svg>
+            <span>Instagram</span>
+          </a>
+        </div>
+      </section>
+
+      <!-- Product Detail Images -->
+      <section class="py-6">
+        <div class="space-y-4">
+          <!-- Image 1: one.webp -->
+          <div class="rounded-2xl overflow-hidden bg-brand-dark">
+            <img
+              src="images/one.webp"
+              alt="ZW15 Smart Watch 1"
+              class="w-full h-auto"
+              loading="lazy"
+            />
+          </div>
+          <!-- Image 2: two.webp -->
+          <div class="rounded-2xl overflow-hidden bg-brand-dark">
+            <img
+              src="images/two.webp"
+              alt="ZW15 Smart Watch 2"
+              class="w-full h-auto"
+              loading="lazy"
+            />
+          </div>
+          <!-- Image 3: three.webp -->
+          <div class="rounded-2xl overflow-hidden bg-brand-dark">
+            <img
+              src="images/three.webp"
+              alt="ZW15 Smart Watch 3"
+              class="w-full h-auto"
+              loading="lazy"
+            />
+          </div>
+          <!-- Image 4: four.webp -->
+          <div class="rounded-2xl overflow-hidden bg-brand-dark">
+            <img
+              src="images/four.webp"
+              alt="ZW15 Smart Watch 4"
+              class="w-full h-auto"
+              loading="lazy"
+            />
+          </div>
+          <!-- Image 5: five.webp -->
+          <div class="rounded-2xl overflow-hidden bg-brand-dark">
+            <img
+              src="images/five.webp"
+              alt="ZW15 Smart Watch 5"
+              class="w-full h-auto"
+              loading="lazy"
+            />
+          </div>
+          <!-- Image 6: six.webp -->
+          <div class="rounded-2xl overflow-hidden bg-brand-dark">
+            <img
+              src="images/six.webp"
+              alt="ZW15 Smart Watch 6"
+              class="w-full h-auto"
+              loading="lazy"
+            />
+          </div>
+          <!-- Image 7: seven.webp -->
+          <div class="rounded-2xl overflow-hidden bg-brand-dark">
+            <img
+              src="images/seven.webp"
+              alt="ZW15 Smart Watch 7"
+              class="w-full h-auto"
+              loading="lazy"
+            />
+          </div>
+          <!-- Image 8: eight.webp -->
+          <div class="rounded-2xl overflow-hidden bg-brand-dark">
+            <img
+              src="images/eight.webp"
+              alt="ZW15 Smart Watch 8"
+              class="w-full h-auto"
+              loading="lazy"
+            />
+          </div>
+          <!-- Image 9: nine.webp -->
+          <div class="rounded-2xl overflow-hidden bg-brand-dark">
+            <img
+              src="images/nine.webp"
+              alt="ZW15 Smart Watch 9"
+              class="w-full h-auto"
+              loading="lazy"
+            />
+          </div>
+          <!-- Image 10: ten.webp -->
+          <div class="rounded-2xl overflow-hidden bg-brand-dark">
+            <img
+              src="images/ten.webp"
+              alt="ZW15 Smart Watch 10"
+              class="w-full h-auto"
+              loading="lazy"
+            />
+          </div>
+          <!-- Image 11: eleven.webp -->
+          <div class="rounded-2xl overflow-hidden bg-brand-dark">
+            <img
+              src="images/eleven.webp"
+              alt="ZW15 Smart Watch 11"
+              class="w-full h-auto"
+              loading="lazy"
+            />
+          </div>
+          <!-- Image 12: twelve.webp -->
+          <div class="rounded-2xl overflow-hidden bg-brand-dark">
+            <img
+              src="images/twelve.webp"
+              alt="ZW15 Smart Watch 12"
+              class="w-full h-auto"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="pt-8 pb-4 text-center text-gray-600 text-xs">
+        <p>© 2026 Official Store</p>
+        <p class="mt-1" data-i18n="footerText">Barcha huquqlar himoyalangan</p>
+      </footer>
+    </main>
+
+    <!-- Toast Notification (Hidden by default) -->
+    <div id="toast" class="toast hidden">
+      <div
+        class="bg-brand-dark border border-brand-gold/30 rounded-full px-4 py-2.5 flex items-center gap-2 shadow-lg"
+      >
+        <span class="w-2 h-2 bg-green-500 rounded-full animate-pulse"></span>
+        <span class="text-sm" id="toastText"
+          >12 kishi hozir bu mahsulotni ko'rmoqda</span
+        >
+      </div>
+    </div>
+
+    <!-- Loading Overlay -->
+    <div
+      id="loading"
+      class="fixed inset-0 bg-black/80 backdrop-blur-sm z-50 hidden flex items-center justify-center"
+    >
+      <div class="text-center">
+        <div
+          class="w-12 h-12 border-4 border-brand-gold/30 border-t-brand-gold rounded-full animate-spin mx-auto mb-4"
+        ></div>
+        <p class="text-gray-400" id="loadingText">Yuborilmoqda...</p>
+      </div>
+    </div>
+
+    <!-- Success Modal -->
+    <div
+      id="successModal"
+      class="fixed inset-0 bg-black/85 backdrop-blur-md z-50 hidden flex items-center justify-center px-4"
+      onclick="if(event.target===this)closeSuccessModal()"
+    >
+      <div class="glass-card rounded-3xl p-8 max-w-sm w-full text-center animate-fade-in-up">
+        <!-- Checkmark Animation -->
+        <div class="w-20 h-20 mx-auto mb-5 rounded-full bg-green-500/20 border-2 border-green-500 flex items-center justify-center">
+          <svg class="w-10 h-10 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/>
+          </svg>
+        </div>
+
+        <!-- Title -->
+        <h3 class="text-2xl font-bold text-white mb-2" id="successModalTitle">
+          Rahmat!
+        </h3>
+
+        <!-- Message -->
+        <p class="text-gray-400 mb-6" id="successModalText">
+          Buyurtmangiz qabul qilindi. Tez orada siz bilan aloqaga chiqamiz!
+        </p>
+
+        <!-- Phone icon -->
+        <div class="flex items-center justify-center gap-2 text-brand-gold text-sm mb-6">
+          <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+            <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
+          </svg>
+          <span id="successModalPhone">Operatorimiz qo'ng'iroq qiladi</span>
+        </div>
+
+        <!-- Close Button -->
+        <button
+          onclick="closeSuccessModal()"
+          class="w-full bg-brand-gold hover:bg-brand-goldHover text-black font-bold py-3 rounded-xl transition-all duration-300"
+        >
+          <span id="successModalBtn">Yaxshi</span>
+        </button>
+      </div>
+    </div>
+
+    <script>
+      // ============================================
+      // CONFIGURATION - Update these values
+      // ============================================
+      const CONFIG = {
+        YANDEX_METRIKA_ID: 99999999, // Replace with your Yandex.Metrika ID
+      };
+
+      // ============================================
+      // PAGE LOAD ANALYTICS & CORE WEB VITALS
+      // ============================================
+      // Track page load time
+      window.addEventListener("load", function () {
+        const navEntry = performance.getEntriesByType('navigation')[0];
+        const loadTime = navEntry ? Math.round(navEntry.loadEventEnd - navEntry.startTime) : 0;
+        console.log("Page load time: " + loadTime + "ms");
+
+        // Send to Yandex.Metrika
+        if (typeof ym !== "undefined") {
+          ym(CONFIG.YANDEX_METRIKA_ID, "params", {
+            page_load_time: loadTime,
+            page_loaded: true,
+          });
+        }
+
+        // Track user engagement
+        setTimeout(function () {
+          if (typeof ym !== "undefined") {
+            ym(CONFIG.YANDEX_METRIKA_ID, "reachGoal", "page_engaged");
+          }
+        }, 15000); // 15 seconds engagement
+      });
+
+      // Track form interactions
+      document.addEventListener("DOMContentLoaded", function () {
+        const phoneInput = document.getElementById("phone");
+        const nameInput = document.getElementById("name");
+
+        if (phoneInput) {
+          phoneInput.addEventListener("focus", function () {
+            if (typeof ym !== "undefined") {
+              ym(CONFIG.YANDEX_METRIKA_ID, "reachGoal", "phone_input_focus");
+            }
+          });
+        }
+
+        if (nameInput) {
+          nameInput.addEventListener("focus", function () {
+            if (typeof ym !== "undefined") {
+              ym(CONFIG.YANDEX_METRIKA_ID, "reachGoal", "name_input_focus");
+            }
+          });
+        }
+      });
+
+      // ============================================
+      // TRANSLATIONS (i18n)
+      // ============================================
+      const translations = {
+        uz: {
+          limitedOffer: "Chegirma tugaydi!",
+          discount: "CHEGIRMA",
+          currency: "so'm",
+          subtitlePremium: "Premium Smart Watch",
+          taxIncluded: "Yetkazib berish bepul",
+          featuresTitle: "Xususiyatlar",
+          feature1: "Yurak urishi",
+          feature1Desc: "24/7 monitoring",
+          feature2: "7 kun zaryad",
+          feature2Desc: "Uzok ishlash",
+          feature3: "IP68 suv o'tkazmas",
+          feature3Desc: "50m chuqurlik",
+          feature4: "100+ sport rejim",
+          feature4Desc: "Harakatlar kuzatish",
+          orderTitle: "Buyurtma qoldiring",
+          labelName: "Ismingiz",
+          labelPhone: "Telefon raqam",
+          placeholderName: "Ismingizni kiriting",
+          placeholderPhone: "(90) 123-45-67",
+          btnOrder: "BUYURTMA BERISH",
+          secure: "Xavfsiz",
+          guarantee: "Kafolat",
+          orBuyOn: "Boshqa platformalar orqali xarid qiling",
+          btnUzum: "Uzum Market",
+          footerText: "Barcha huquqlar himoyalangan",
+          toastText: "12 kishi hozir bu mahsulotni ko'rmoqda",
+          daysLeft: "kun qoldi",
+          successTitle: "Buyurtma qabul qilindi!",
+          successText: "Tez orada siz bilan bog'lanamiz",
+          errorTitle: "Xatolik yuz berdi",
+          errorText: "Qaytadan urinib ko'ring",
+        },
+        ru: {
+          limitedOffer: "Скидка скоро закончится!",
+          discount: "СКИДКА",
+          currency: "сум",
+          subtitlePremium: "Премиум Смарт Часы",
+          taxIncluded: "Бесплатная доставка",
+          featuresTitle: "Характеристики",
+          feature1: "Пульс",
+          feature1Desc: "Мониторинг 24/7",
+          feature2: "7 дней заряда",
+          feature2Desc: "Долгая работа",
+          feature3: "IP68 водонепроницаем",
+          feature3Desc: "50м глубина",
+          feature4: "100+ спорт режим",
+          feature4Desc: "Отслеживание",
+          orderTitle: "Оставьте заказ",
+          labelName: "Ваше имя",
+          labelPhone: "Номер телефона",
+          placeholderName: "Введите ваше имя",
+          placeholderPhone: "(90) 123-45-67",
+          btnOrder: "ЗАКАЗАТЬ СЕЙЧАС",
+          secure: "Безопасно",
+          guarantee: "Гарантия",
+          orBuyOn: "Купить через другие платформы",
+          btnUzum: "Uzum Market",
+          footerText: "Все права защищены",
+          toastText: "12 человек сейчас просматривают",
+          daysLeft: "дней осталось",
+          successTitle: "Заказ принят!",
+          successText: "Мы свяжемся с вами скоро",
+          errorTitle: "Произошла ошибка",
+          errorText: "Попробуйте снова",
+        },
+      };
+
+      let currentLang = "uz";
+
+      // ============================================
+      // LANGUAGE SWITCHER
+      // ============================================
+      function setLang(lang) {
+        currentLang = lang;
+
+        // Update toggle buttons
+        document.getElementById("btn-uz").className =
+          lang === "uz"
+            ? "px-3 py-1 rounded-full text-sm font-medium transition-all duration-300 bg-brand-gold text-black"
+            : "px-3 py-1 rounded-full text-sm font-medium transition-all duration-300 text-gray-400 hover:text-white";
+
+        document.getElementById("btn-ru").className =
+          lang === "ru"
+            ? "px-3 py-1 rounded-full text-sm font-medium transition-all duration-300 bg-brand-gold text-black"
+            : "px-3 py-1 rounded-full text-sm font-medium transition-all duration-300 text-gray-400 hover:text-white";
+
+        // Update all translatable elements
+        document.querySelectorAll("[data-i18n]").forEach((el) => {
+          const key = el.getAttribute("data-i18n");
+          if (translations[lang][key]) {
+            el.textContent = translations[lang][key];
+          }
+        });
+
+        // Update placeholders
+        document.querySelectorAll("[data-i18n-placeholder]").forEach((el) => {
+          const key = el.getAttribute("data-i18n-placeholder");
+          if (translations[lang][key]) {
+            el.placeholder = translations[lang][key];
+          }
+        });
+
+        // Update HTML lang attribute
+        document.documentElement.lang = lang;
+      }
+
+      // ============================================
+      // PHONE FORMATTER
+      // ============================================
+      function formatPhone(input) {
+        // Remove all non-digits
+        let value = input.value.replace(/\D/g, "");
+
+        // Limit to 9 digits (after +998)
+        value = value.substring(0, 9);
+
+        // Format: (XX) XXX-XX-XX
+        let formatted = "";
+        if (value.length > 0) {
+          formatted = "(" + value.substring(0, 2);
+          if (value.length > 2) {
+            formatted += ") " + value.substring(2, 5);
+          }
+          if (value.length > 5) {
+            formatted += "-" + value.substring(5, 7);
+          }
+          if (value.length > 7) {
+            formatted += "-" + value.substring(7, 9);
+          }
+        }
+
+        input.value = formatted;
+      }
+
+      // ============================================
+      // FORM SUBMISSION + TELEGRAM INTEGRATION
+      // ============================================
+      async function handleSubmit(e) {
+        e.preventDefault();
+
+        const name = document.getElementById("name").value.trim();
+        const phone = document.getElementById("phone").value.trim();
+
+        if (!name || !phone) {
+          alert(
+            currentLang === "uz"
+              ? "Iltimos, barcha maydonlarni to'ldiring"
+              : "Пожалуйста, заполните все поля",
+          );
+          return;
+        }
+
+        // Show loading
+        document.getElementById("loading").classList.remove("hidden");
+        document.getElementById("loadingText").textContent =
+          currentLang === "uz" ? "Yuborilmoqda..." : "Отправка...";
+
+        // Prepare message
+        const message = `🔥 NEW ORDER!
+
+👤 Name: ${name}
+📞 Phone: +998 ${phone}
+⌚ Model: ZW15
+💰 Price: 749 000 so'm (chegirmada)
+📱 Source: Instagram Target
+🌐 Language: ${currentLang.toUpperCase()}`;
+
+        try {
+          let response;
+          const isLocal = location.protocol === "file:" || location.hostname === "localhost" || location.hostname === "127.0.0.1";
+
+          if (isLocal) {
+            // Local test: to'g'ridan-to'g'ri Telegram API
+            response = await fetch(
+              `https://api.telegram.org/bot8319161461:AAHm4Z8VmUqJdYtsExF1GxLmqLLQo7dBVng/sendMessage`,
+              {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({
+                  chat_id: "-1003585838850",
+                  text: message,
+                }),
+              },
+            );
+          } else {
+            // Production: xavfsiz API endpoint
+            response = await fetch("/api/send-order", {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({ name, phone, lang: currentLang }),
+            });
+          }
+
+          const data = await response.json();
+
+          if (data.ok) {
+            // Success
+            document.getElementById("loading").classList.add("hidden");
+            showSuccessModal();
+            document.getElementById("orderForm").reset();
+
+            // Track successful order in Yandex.Metrika
+            if (typeof ym !== "undefined") {
+              ym(CONFIG.YANDEX_METRIKA_ID, "reachGoal", "order_submitted");
+              ym(CONFIG.YANDEX_METRIKA_ID, "ecommerce", {
+                detail: {
+                  products: [
+                    {
+                      id: "ZW15",
+                      name: "ZW15 Premium Smart Watch",
+                      price: 749000,
+                      currency: "UZS",
+                    },
+                  ],
+                },
+              });
+            }
+          } else {
+            throw new Error("Server error");
+          }
+        } catch (error) {
+          console.error("Error:", error);
+          document.getElementById("loading").classList.add("hidden");
+          showNotification(
+            translations[currentLang].errorTitle,
+            translations[currentLang].errorText,
+            "error",
+          );
+        }
+      }
+
+      // ============================================
+      // NOTIFICATION / TOAST
+      // ============================================
+      function showNotification(title, message, type) {
+        // Create custom notification
+        const notif = document.createElement("div");
+        notif.className =
+          "fixed top-20 left-1/2 -translate-x-1/2 z-50 animate-fade-in-up";
+        notif.innerHTML = `
+                <div class="${type === "success" ? "bg-green-500/20 border-green-500/50" : "bg-red-500/20 border-red-500/50"} 
+                            border rounded-2xl px-6 py-4 text-center min-w-[280px]">
+                    <h3 class="${type === "success" ? "text-green-400" : "text-red-400"} font-bold mb-1">${title}</h3>
+                    <p class="text-gray-300 text-sm">${message}</p>
+                </div>
+            `;
+        document.body.appendChild(notif);
+
+        setTimeout(() => {
+          notif.remove();
+        }, 4000);
+      }
+
+      // ============================================
+      // SUCCESS MODAL
+      // ============================================
+      function showSuccessModal() {
+        const modal = document.getElementById("successModal");
+        // Update texts based on language
+        if (currentLang === "ru") {
+          document.getElementById("successModalTitle").textContent = "Спасибо!";
+          document.getElementById("successModalText").textContent = "Ваш заказ принят. Мы свяжемся с вами в ближайшее время!";
+          document.getElementById("successModalPhone").textContent = "Наш оператор позвонит вам";
+          document.getElementById("successModalBtn").textContent = "Хорошо";
+        } else {
+          document.getElementById("successModalTitle").textContent = "Rahmat!";
+          document.getElementById("successModalText").textContent = "Buyurtmangiz qabul qilindi. Tez orada siz bilan aloqaga chiqamiz!";
+          document.getElementById("successModalPhone").textContent = "Operatorimiz qo'ng'iroq qiladi";
+          document.getElementById("successModalBtn").textContent = "Yaxshi";
+        }
+        modal.classList.remove("hidden");
+      }
+
+      function closeSuccessModal() {
+        document.getElementById("successModal").classList.add("hidden");
+      }
+
+      // ============================================
+      // SOCIAL PROOF TOAST
+      // ============================================
+      function showSocialProof() {
+        const toast = document.getElementById("toast");
+        const toastText = document.getElementById("toastText");
+        toastText.textContent = translations[currentLang].toastText;
+        toast.classList.remove("hidden");
+
+        setTimeout(() => {
+          toast.classList.add("hidden");
+        }, 5000);
+      }
+
+      // ============================================
+      // IMAGE GALLERY - Customize your images here
+      // ============================================
+      // Product images - head_one.webp to head_ten.webp
+      const images = [
+        "images/head_one.webp",
+        "images/head_two.webp",
+        "images/head_three.webp",
+        "images/head_four.webp",
+        "images/head_five.webp",
+        "images/head_six.webp",
+        "images/head_seven.webp",
+        "images/head_eight.webp",
+        "images/head_nine.webp",
+        "images/head_ten.webp",
+      ];
+
+      let currentImageIndex = 0;
+
+      function updateGallery() {
+        const mainImg = document.getElementById("mainImage");
+        const currentSpan = document.getElementById("currentImage");
+
+        mainImg.style.opacity = "0";
+        setTimeout(() => {
+          mainImg.src = images[currentImageIndex];
+          mainImg.style.opacity = "1";
+        }, 150);
+
+        currentSpan.textContent = currentImageIndex + 1;
+
+        // Update thumbnails
+        document.querySelectorAll(".thumbnail-btn").forEach((btn, index) => {
+          if (index === currentImageIndex) {
+            btn.classList.remove("border-transparent", "opacity-60");
+            btn.classList.add("border-brand-gold", "opacity-100");
+            // Scroll active thumbnail into view
+            btn.scrollIntoView({
+              behavior: "smooth",
+              inline: "center",
+              block: "nearest",
+            });
+          } else {
+            btn.classList.remove("border-brand-gold", "opacity-100");
+            btn.classList.add("border-transparent", "opacity-60");
+          }
+        });
+      }
+
+      function setImage(index) {
+        currentImageIndex = index;
+        updateGallery();
+
+        // Track image view in Yandex.Metrika
+        if (typeof ym !== "undefined") {
+          ym(CONFIG.YANDEX_METRIKA_ID, "reachGoal", "image_view", {
+            image_index: index + 1,
+          });
+        }
+      }
+
+      function nextImage() {
+        currentImageIndex = (currentImageIndex + 1) % images.length;
+        updateGallery();
+      }
+
+      function prevImage() {
+        currentImageIndex =
+          (currentImageIndex - 1 + images.length) % images.length;
+        updateGallery();
+      }
+
+      // Swipe support for mobile
+      let touchStartX = 0;
+      let touchEndX = 0;
+
+      document.addEventListener("touchstart", (e) => {
+        touchStartX = e.changedTouches[0].screenX;
+      });
+
+      document.addEventListener("touchend", (e) => {
+        touchEndX = e.changedTouches[0].screenX;
+        handleSwipe();
+      });
+
+      function handleSwipe() {
+        const swipeThreshold = 50;
+        if (touchEndX < touchStartX - swipeThreshold) {
+          nextImage();
+        }
+        if (touchEndX > touchStartX + swipeThreshold) {
+          prevImage();
+        }
+      }
+
+      // ============================================
+      // INITIALIZATION
+      // ============================================
+      document.addEventListener("DOMContentLoaded", () => {
+        // Show social proof toast after 2 seconds
+        setTimeout(showSocialProof, 2000);
+
+        // Detect browser language preference
+        const userLang = navigator.language || navigator.userLanguage;
+        if (userLang.startsWith("ru")) {
+          setLang("ru");
+        } else {
+          setLang("uz");
+        }
+      });
+
+      // Double-tap zoom prevention removed for better accessibility
+    </script>
+  </body>
+</html>

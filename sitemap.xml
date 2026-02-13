@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+  <url>
+    <loc>https://zw15-watch.vercel.app/</loc>
+    <lastmod>2026-02-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://zw15-watch.vercel.app/images/head_one.webp</image:loc>
+      <image:title>ZW15 Premium Smart Watch</image:title>
+      <image:caption>Premium Smart Watch - 7 kun zaryad, IP68 suv o'tkazmas</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://zw15-watch.vercel.app/images/head_two.webp</image:loc>
+      <image:title>ZW15 Smart Watch</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://zw15-watch.vercel.app/images/head_three.webp</image:loc>
+      <image:title>ZW15 Design</image:title>
+    </image:image>
+  </url>
+</urlset>

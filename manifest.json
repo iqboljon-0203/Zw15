@@ -1,0 +1,36 @@
+{
+  "name": "ZW15 - Premium Smart Watch",
+  "short_name": "ZW15",
+  "description": "Premium Smart Watch - 56% chegirma! 7 kun zaryad, IP68 suv o'tkazmas.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "orientation": "portrait",
+  "scope": "/",
+  "lang": "uz",
+  "icons": [
+    {
+      "src": "images/head_one.webp",
+      "sizes": "192x192",
+      "type": "image/webp",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "images/head_one.webp",
+      "sizes": "512x512",
+      "type": "image/webp",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["shopping", "electronics"],
+  "screenshots": [
+    {
+      "src": "images/head_one.webp",
+      "sizes": "800x800",
+      "type": "image/webp",
+      "form_factor": "narrow",
+      "label": "ZW15 Smart Watch"
+    }
+  ]
+}
