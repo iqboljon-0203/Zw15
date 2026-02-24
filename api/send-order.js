@@ -38,7 +38,7 @@ export default async function handler(req, res) {
 👤 Name: ${name}
 📞 Phone: +998 ${phone}
 ⌚ Model: ZW15
-💰 Price: 749 000 so'm (chegirmada)
+💰 Price: 799 000 so'm (chegirmada)
 📱 Source: Landing Page
 🌐 Language: ${(lang || "uz").toUpperCase()}`;
 
